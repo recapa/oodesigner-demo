@@ -2,10 +2,10 @@ namespace: Integrations.AOS_application
 flow:
   name: deploy_aos
   inputs:
-    - target_host: demo.hcmx.local
+    - target_host: 172.16.239.129
     - target_host_username: root
     - target_host_password:
-        default: Cloud_123
+        default: Cloud_1234
         sensitive: true
   workflow:
     - install_postgres:
